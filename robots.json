@@ -1,0 +1,40 @@
+{
+  "units": [
+    {
+      "id": "RX-7-alpha",
+      "label": "RX-7 // 阿尔法一号",
+      "robots": [
+        { "nodeKey": "RX-1", "label": "通讯链路", "command": "node", "args": ["scripts/sensor.js", "--port=9101"] },
+        { "nodeKey": "RX-2", "label": "动力系统", "command": "node", "args": ["scripts/sensor.js", "--port=9102"] },
+        { "nodeKey": "RX-3", "label": "导航模块", "command": "node", "args": ["scripts/sensor.js", "--port=9103"] },
+        { "nodeKey": "RX-4", "label": "视觉系统", "command": "node", "args": ["scripts/sensor.js", "--port=9104"] },
+        { "nodeKey": "RX-5", "label": "电池管理", "command": "node", "args": ["scripts/sensor.js", "--port=9105"] },
+        { "nodeKey": "RX-6", "label": "故障检测", "command": "node", "args": ["scripts/sensor.js", "--port=9106"] }
+      ]
+    },
+    {
+      "id": "RX-7-beta",
+      "label": "RX-7 // 贝塔二号",
+      "robots": [
+        { "nodeKey": "RX-1", "label": "通讯链路", "command": "node", "args": ["scripts/sensor.js", "--port=9201"] },
+        { "nodeKey": "RX-2", "label": "动力系统", "command": "node", "args": ["scripts/sensor.js", "--port=9202"] },
+        { "nodeKey": "RX-3", "label": "导航模块", "command": "node", "args": ["scripts/sensor.js", "--port=9203"] },
+        { "nodeKey": "RX-4", "label": "视觉系统", "command": "node", "args": ["scripts/sensor.js", "--port=9204"] },
+        { "nodeKey": "RX-5", "label": "电池管理", "command": "node", "args": ["scripts/sensor.js", "--port=9205"] },
+        { "nodeKey": "RX-6", "label": "故障检测", "command": "node", "args": ["scripts/sensor.js", "--port=9206"] }
+      ]
+    },
+    {
+      "id": "RX-9-gamma",
+      "label": "RX-9 // 伽马原型机",
+      "robots": [
+        { "nodeKey": "RX-1", "label": "通讯链路", "command": "node", "args": ["scripts/sensor.js", "--port=9301"] },
+        { "nodeKey": "RX-2", "label": "动力系统", "command": "node", "args": ["scripts/sensor.js", "--port=9302"] },
+        { "nodeKey": "RX-3", "label": "导航模块", "command": "node", "args": ["scripts/sensor.js", "--port=9303"] },
+        { "nodeKey": "RX-4", "label": "视觉系统", "command": "node", "args": ["scripts/sensor.js", "--port=9304"] },
+        { "nodeKey": "RX-5", "label": "电池管理", "command": "node", "args": ["scripts/sensor.js", "--port=9305"] },
+        { "nodeKey": "RX-6", "label": "故障检测", "command": "node", "args": ["scripts/sensor.js", "--port=9306"] }
+      ]
+    }
+  ]
+}
